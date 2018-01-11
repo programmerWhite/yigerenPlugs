@@ -1,0 +1,16 @@
+{
+  "name": "一个人",
+  "version": "2.0.0",
+  "description": "一个人购物网站，比价插件",
+  "browser_action": {
+    "default_title": "一个人",
+    "default_icon": "log.png",
+    "default_popup" : "yigeren.html"
+  },
+  "icons": {
+    "48": "log.png"
+  },
+
+  "manifest_version": 2,
+  "content_security_policy": "script-src 'self' https://ssl.google-analytics.com; object-src 'self'"
+}
